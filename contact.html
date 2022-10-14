@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <script type="text/javascript" src="./scripts/script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="containerContact">
+            <div class="nav-navegation">
+                <div class="logo">
+                    ELIZABETH QUIÑONEZ 
+                </div>   
+                <ul>
+                    <li class="item-no-selected"><a href="index.html">Inicio</a></li>
+                    <li class="item-no-selected"><a href="estudios.html">Estudios</a></li>
+                    <li class="item-no-selected"><a href="jobs.html">Trabajos</a></li>
+                    <li class="item-selected"><a href="contact.html">Contacto</a></li>
+              </ul>
+      
+            </div>
+
+            
+        <div class="content">
+            <section>
+                <header id="article-header"><h3>Contacto</h3></header>
+                <hr>
+                <p>Para contactarme por favor llene los datos.</p>
+
+                <form id="form-contacto" action="">
+                    <label for="txt-nombre">Nombre:</label><br>
+                    <input type="text" id="txt-nombre"><br>
+                    <label for="txt-correo">Correo:</label><br>
+                    <input type="text" id="txt-correo"><br><br>
+                    <label for="txt-mensaje">Mensaje:</label><br>
+                    <textarea rows="7" type="text" id="txt-mensaje" value="Mensaje"></textarea>
+                    <input id="btn-input" type="submit" value="Enviar">
+                </form>
+
+            </section>
+        </div>
+        <div class="footer">
+                <h4>Copyrigth 2022 - Universidad del Cauca</h4>
+                <h4>Popayan - Cauca</h4>
+    
+                <a class="btn-network" onclick="onFacebook()"><img src="assets/images/facebook.png" alt="Twitter" width="2%"></a>
+                <a class="btn-network" onclick="onTwiter()"><img src="assets/images/twitter.png" alt="Twitter" width="2%"></a>
+                <a class="btn-network" onclick="onInstagram()"><img src="assets/images/instagram.png" alt="Instagram" width="2%"></a>
+        </div>
+    </div>
+</body>
+</html>
